@@ -1,0 +1,20 @@
+1. dir --> hasilnya info tentang file yg tersedia pada disk
+2. arp --> menampilkan atau mengedit IP adress
+3. cd  --> untuk membuka sebuah directory atau untuk masuk ke suatu disk
+4. cls --> untuk menghapus semua command diatas
+5. cmd --> untuk melihat os yg digunakan
+6. clip --> digunakan untuk copy dan paste dengan program lain
+7. date --> untuk melihat hari ini
+8. exit --> untuk keluar dari program
+9. find --> digunakan untuk mencari suatu directory
+10. help --> digunakan untuk mencari info
+11. hostname --> untuk melihat nama host 
+12. ipconfig --> untuk melihat konfigurasi IP
+13. label --> untuk melihat info disk yg digunakan
+14. nslookup --> untuk melihat IP Adress dan Default IP
+15. nslookup server --> untuk melihat IP Server
+16. ping --> untuk melihat trafic data khususnya internet
+17. tracert --> untuk trace data (internet)
+18. openfiles --> untuk membuka sebuah file
+19. nslookup view --> untuk melihat IP Server dan Adress
+20. change --> untuk mengganti logon, port, dan user
