@@ -12,7 +12,7 @@ void main() {
 
   const double atm = 1.01325 * 25;
 
-  // print(name);
+  print(name);
   // print(name2);
   // print(name3);
   // print(name4);
