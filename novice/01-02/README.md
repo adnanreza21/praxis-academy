@@ -21,6 +21,7 @@ Hari Pertama Bootcamp
         }else if (year >= 1901){
         print('20th century');
         }
+    
     d. functions, dalam fungsi ini saya mencoba membuat boolean, dengan menginputkan sebuah pilihan akan menghasilkan suatu pilihan 
     code :
             if (checkBool(masukan)) {
@@ -37,6 +38,7 @@ Hari Pertama Bootcamp
                 return false;
                 }
             }
+    
     e. comment, dalam dart ini juga sama seperti java dalam hal comment yaitu menggunakan "//". jadi dengan tanda tersebut diberikan didepan syntax maka akan menjadi sebuah comment. jika ingin membuat comment beberapa baris dapat menggunakan ctrl+/ namun bagian yg ingin dibuat comment diblok terlebih dahulu.
 
-    f. import, dalam dart juga sama dengan java dalam hal import. saya tadi melalukan import yaitu dengan "import 'dart:io'" untuk menambahkan sebuah inputan
+        f. import, dalam dart juga sama dengan java dalam hal import. saya tadi melalukan import yaitu dengan "import 'dart:io'" untuk menambahkan sebuah inputan
