@@ -27,22 +27,23 @@ void main() {
   // };
   // print(gifts);
 
-  // print('masukan nilai :');
-  // int nilai = int.parse(stdin.readLineSync());
+  print('masukan nilai :');
+  int nilai = int.parse(stdin.readLineSync());
   
-  // if (nilai >= 75){
-  //   print (baik);
-  // }else if(nilai < 75 ){
-  //   print(jelek);
-  // }
+  if (nilai >= 75){
+    print (baik);
+  }else if(nilai < 75 ){
+    print(jelek);
+  }
   // var message = StringBuffer('Dart is Fum');
   // for (var i = 0; i < 5; i++){
   //   message.write('!');
 
   //   print(message);
   // }
-  print('masukan nilai :');
-   int nilai = int.parse(stdin.readLineSync());
+
+  // print('masukan nilai :');
+  //  int nilai = int.parse(stdin.readLineSync());
   
-  assert (nilai > 70, 'nilai belum KKM' );
+  // assert (nilai > 70, 'nilai belum KKM' );
 }
