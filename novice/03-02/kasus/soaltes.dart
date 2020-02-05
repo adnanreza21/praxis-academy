@@ -1,6 +1,4 @@
 import 'dart:io';
-
-String backToMenu;
   
  void main(){
    int inputMenu = 0;
@@ -17,21 +15,28 @@ String backToMenu;
         print("\tPress [2] Withdraw");
         print("\tPress [3] Balance Inquiry");
         print("\tPress [4] Exit");
-    stdout.write('\n-> PILIH MENU:');
+    stdout.write('\n-> SELECT MENU:');
     inputMenu = int.parse(stdin.readLineSync());
    switch(inputMenu)
    {
      case 1:
      deposit();
      break;
+
      case 2:
      withdraw();
      break;
+
      case 3:
      balance();
      break;
+
      case 4:
      broke();
+     break;
+
+     default:
+     print("Please select correct transaction"); 
    }
   } while(inputMenu < 0 && inputMenu > 4);
  }   
@@ -50,10 +55,10 @@ void withdraw(){
 
   void balance(){
     double balan = 0;
-    print('Your Balance is Error');
+    print('Your Balance is 0,00');
      main();
   }
   void broke(){
     double bro = 0;
-    print('Good Bye');
+    print('Thank you for using this simple ATM Machine');
   }
