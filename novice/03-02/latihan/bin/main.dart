@@ -3,9 +3,9 @@ import 'package:latihan/latihan.dart' as latihan;
 import '../lib/latihan.dart';
 
 void main(List<String> arguments) {
-  // Siswa siswa1 = Siswa();
-  // siswa1.name = "anda";
-  // print(siswa1.name);
+  Siswa siswa1 = Siswa();
+  siswa1.name = "anda";
+  print(siswa1.name);
 Orang orang = Orang ("Andi","andi@gmail.com",20,true);
 orang.showData();
 }
